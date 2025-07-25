@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_DB: read_adviser
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: do8poOcugQ94K1c
     ports:
       - "5432:5432"
     volumes:
@@ -27,7 +27,7 @@ services:
       POSTGRES_HOST: postgres
       POSTGRES_PORT: 5432
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: do8poOcugQ94K1c
       POSTGRES_DBNAME: read_adviser
       POSTGRES_SSLMODE: disable
     restart: unless-stopped
